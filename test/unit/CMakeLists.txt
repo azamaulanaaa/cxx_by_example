@@ -1,0 +1,3 @@
+add_executable(singly_linked_list_test singly_linked_list.cxx)
+target_link_libraries(singly_linked_list_test GTest::gtest_main singly_linked_list)
+gtest_add_tests(TARGET singly_linked_list_test)
